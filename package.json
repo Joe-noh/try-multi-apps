@@ -1,0 +1,13 @@
+{
+  "name": "try-multi-apps",
+  "version": "1.0.0",
+  "description": "play with lerna",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joe-noh/try-multi-apps.git"
+  },
+  "author": "Joe-noh",
+  "license": "MIT",
+  "private": true
+}
