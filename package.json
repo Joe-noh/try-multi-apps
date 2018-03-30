@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "play with lerna",
   "scripts": {
+    "dev": "lerna run --parallel dev",
     "lerna": "lerna"
   },
   "repository": {
