@@ -4,12 +4,12 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "parcel watch src/index.js",
-    "build": "parcel build src/index.js"
+    "dev": "npm run build -- -w",
+    "build": "rollup src/index.js --format umd --name common --file dist/index.js"
   },
   "author": "Joe-noh",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.7.0"
+    "rollup": "^0.57.1"
   }
 }
