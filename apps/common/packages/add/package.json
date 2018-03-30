@@ -1,0 +1,15 @@
+{
+  "name": "common/add",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "npm run build -- -w",
+    "build": "rollup src/index.js --format umd --name common/add --file dist/index.js"
+  },
+  "author": "Joe-noh",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.57.1"
+  }
+}
