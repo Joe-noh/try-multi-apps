@@ -13,6 +13,6 @@
     "parcel-bundler": "^1.7.0"
   },
   "dependencies": {
-    "common": "^1.0.0"
+    "@common/add": "^1.0.0"
   }
 }

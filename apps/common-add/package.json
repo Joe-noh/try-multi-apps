@@ -1,11 +1,11 @@
 {
-  "name": "common/add",
+  "name": "@common/add",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "npm run build -- -w",
-    "build": "rollup src/index.js --format umd --name common/add --file dist/index.js"
+    "dev": "rollup src/index.js --o dist/index.js -f umd --name @common/add -w",
+    "build": "rollup src/index.js --o dist/index.js -f umd --name @common/add"
   },
   "author": "Joe-noh",
   "license": "MIT",

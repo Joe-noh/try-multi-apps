@@ -1,4 +1,4 @@
-import add from 'common';
+import add from '@common/add';
 
 const app = document.querySelector('#app');
 
